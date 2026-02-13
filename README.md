@@ -34,11 +34,6 @@ Este es script su fin es que la maquina atacante sea root bridge por su Mac-Adre
 
 
 ### Parámetros Usados
-El script utiliza la librería **Scapy** para la inyección de paquetes en capa 2/3.
-
-**IP Asignada:** 10.12.50.150
-
-**Gateway Falso:** 10.12.50.100 **(Dirección del atacante).**
 
 ```
 dst = "01:80:c2:00:00:00"              
