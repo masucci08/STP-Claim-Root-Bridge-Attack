@@ -15,7 +15,6 @@ El laboratorio se ha desplegado en un entorno virtualizado utilizando **GNS3**, 
 
 ### Detalles de la Topología
 
-<img width="521" height="302" alt="image" src="https://github.com/user-attachments/assets/973f36d1-6b4f-43d8-b383-4c296712c79b" />
 
 
 **Direccionamiento IP:** Subred `10.12.50.0/24`
@@ -23,6 +22,9 @@ El laboratorio se ha desplegado en un entorno virtualizado utilizando **GNS3**, 
 **Atacante:** Kali Linux (00:0c:29:b7:78:45)
 
 **Víctima:** Sw2 (root bridge) 
+
+<img width="521" height="302" alt="image" src="https://github.com/user-attachments/assets/973f36d1-6b4f-43d8-b383-4c296712c79b" />
+
 
 
 
@@ -61,11 +63,9 @@ time.sleep(2)
 
 
 ### Requisitos para utilizar la herramienta.
-* Stp activo
-* Sin BPDU Guard
-* Sin Root Guard
 * Acceso a capa 2
 * Sin autenticacion
+* Scapy y python3
 
 
 
